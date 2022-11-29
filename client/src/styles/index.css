@@ -1,0 +1,137 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+*{
+  margin: 0;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.divtopo{
+  background-color:rgb(248, 239, 115);
+  height: 150px;
+  width: 100%;
+  text-transform: uppercase;
+
+}
+
+.topoAg{
+  background-color:rgb(248, 239, 115);
+  height: 100px;
+  width: 100%;
+}
+
+.topoAg{
+  text-align: center;
+  color: rgb(254, 115, 0);
+}
+
+.menubuttons{
+  margin-top: 72px;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(247, 249, 91);
+  align-items: center;
+
+}
+
+#carrinhoCompra{
+  padding-right: 290px;
+  padding-top: 30px;
+}
+
+
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  color: white;
+
+}
+.nav-list > li{
+  letter-spacing: 2 px;
+  margin-left: 32px;
+  margin: auto;
+  margin-top: 6px;
+  
+}
+
+.slideshow-container {  
+  width: 55%;
+  position: relative;
+  margin: auto;
+  margin-top: 55px;
+}
+
+#banner{
+  border-radius: 10px;
+  height: 300px;
+}
+
+#letter{
+  color: rgb(175, 3, 0);
+  font-size: large;
+}
+
+
+
+:root{
+  --cor-fundo : rgb(255, 255, 255);
+  --cor-hover : rgb(52, 52, 52);
+  --cor-primaria : rgb(229, 0, 0);
+}
+
+.menubuttons ul{
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.menubuttons ul li{
+  display: inline;
+  position: relative;
+}
+
+.menubuttons ul li a{
+  color: var(--cor-primaria );
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+.menubuttons ul li a:hover{
+  background-color: var( --cor-hover)
+}
+
+/*sub menu*/
+
+.menubuttons ul ul{
+  display: none;
+  position: absolute;
+}
+
+.menubuttons ul li:hover ul{
+  display: block;
+  position: absolute;
+}
+

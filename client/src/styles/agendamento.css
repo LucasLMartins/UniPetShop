@@ -1,0 +1,100 @@
+.boxAgendamento{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+.fieldAgendamento{
+    border: 3px solid #624F82;
+}
+
+#legendAgendamento{
+    border: 1px solid #624F82;
+    padding: 10px;
+    text-align: center;
+    background-color: #624F82;
+    border-radius: 8px;
+    color: white;
+}
+
+.boxInput{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px; 
+}
+
+.centralizameio{
+    text-align: center;
+}
+
+.labelInput{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    color: white;
+    padding-top: 20px;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #624F82;
+}
+
+.selectUser{
+    font-size: 15px;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    background-color: #624F82;
+}
+
+#submit{
+    background-color: #80489C;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#submit:hover{
+    background-color: #3F3B6C;
+}
+
+#data_agendamento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#appt{
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+}
+
+#labelData{
+    color: white;
+    padding: 8px;
+}

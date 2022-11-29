@@ -1,0 +1,392 @@
+/* admin login */
+/* admin login */
+/* admin login */
+
+.mt-20{
+    margin-top: 20vh;
+}
+
+.admin-main-div{
+    margin: 3vh 20vh;
+    text-align: center;
+}
+
+.admin-form{
+    margin-top: 5vh;
+}
+
+#adminUser{
+    width: 300px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: rgb(254, 115, 0) 2px solid;
+    border-radius: 3px;
+}
+
+#adminPass{
+    margin-top: 2vh;
+    width: 300px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: rgb(254, 115, 0) 2px solid;
+    border-radius: 3px;
+}
+
+.adminButton{
+    color: white;
+    margin-top: 2vh;
+    width: 333px;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: rgb(254, 115, 0);
+    border-width: 0px;
+    border-radius: 3px;
+    display: block;
+}
+
+.divAdminButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-login-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-return-home{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.admin-logout{
+    display: inline-block;
+}
+
+.admin-logout-button{
+    border-width: 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: rgb(254, 115, 0);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.home-icon-div{
+    border: 2px solid rgb(254, 115, 0);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 3px;
+    background-color: rgb(254, 115, 0);
+}
+
+.admin-paper{
+    background-color: #f2f2f2;
+    margin-top: 2vh;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid;
+    border-color: rgb(254, 115, 0);
+}
+
+/* crud produtos */
+/* crud produtos */
+/* crud produtos */
+
+.admin-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+
+.admin-table{
+    width: 100%;
+}
+
+.edit-item{
+    display: inline-block;
+    border: gray solid 1px;
+    color: gray;
+    padding: 10px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-item:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.delete-item{
+    display: inline-block;
+    border: red solid 1px;
+    color: red;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-item:hover{
+    background-color: rgb(255, 227, 227);
+}
+
+.insert-new-modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.insert-new-modal-top{
+    text-align: center;
+}
+
+.create-new-product{
+    display: inline-block;
+    margin: 6px 0 5vh 0;
+    font-size: 28px;
+    padding-left: 35px;
+}
+
+.close-insert-new-modal{
+    float: right;
+    font-size: 18px;
+    background-color: rgb(254, 115, 0);
+    padding: 10px 15px;
+    border-width: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close-insert-new-modal:hover{
+    background-color: rgb(255, 158, 79);
+}
+
+.new-modal-container{
+    width: 50vh;
+    margin-bottom: 20vh;
+    background-color: #f2f2f2;
+    padding: 5vh;
+    color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 115, 0);
+}
+
+.input-new-modal{
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: white 2px solid;
+    border-radius: 3px;
+    border-color: rgb(255, 115, 0);
+    font-size: 18px;
+}
+.header-crud{
+    min-width: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.item-crud{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: rgb(36, 36, 36);
+}
+
+.crud-id{
+    width: 5%;
+}
+
+.crud-img{
+    width: 10%;
+}
+
+.crud-name{
+    width: 20%;
+}
+
+.crud-desc{
+    width: 35%;
+}
+
+.crud-price{
+    width: 10%;
+}
+
+.crud-act{
+    width: 20%;
+}
+
+.crud-line{
+    display: inline-block;
+}
+
+.edit-item-p{
+    margin: 0;
+}
+
+.admin-product-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(254, 115, 0);
+}
+
+.admin-product-create-button{
+    font-size: 18px;
+    background-color: rgb(254, 115, 0);
+    padding: 10px 15px;
+    border-width: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.admin-product-create-button:hover{
+    background-color: rgb(255, 158, 79)
+}
+
+.header-crud > div {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.edit-modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.delete-product{
+    display: inline-block;
+    margin: 6px 0 5vh 0;
+    font-size: 28px;
+}
+
+.delete-product-name{
+    display: inline-block;
+    margin: 6px 0 5vh 0;
+    font-size: 20px;
+}
+
+.admin-select-div{
+    margin-top: 20px;
+}
+
+.admin-select{
+    display: inline-block;
+    border: 2px solid rgb(254, 115, 0);
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+.admin-select:hover{
+    background-color: rgb(255, 244, 238);
+}
+
+.admin-select > p {
+    margin: 0;
+    padding: 15px 20px;
+}
+
+
+/* table pedidos */
+/* table pedidos */
+/* table pedidos */
+
+
+.crud-id-orders{
+    width: 10%;
+}
+
+.crud-cpf-orders{
+    width: 20%;
+}
+
+.crud-nameProduct-orders{
+    width: 30%;
+}
+
+.crud-product-orders{
+    width: 10%;
+}
+
+.crud-qnt-orders{
+    width: 10%;
+}
+
+.crud-date-orders{
+    width: 20%;
+}
+
+
+/* table agendamento */
+/* table agendamento */
+/* table agendamento */
+
+.crud-nome-schedules{
+    width: 15%;
+}
+
+.crud-cpf-schedules{
+    width: 10%;
+}
+
+.crud-fone-schedules{
+    width: 15%;
+}
+
+.crud-tipo-schedules{
+    width: 10%;
+}
+
+.crud-hour-schedules{
+    width: 10%;
+}
+
+.crud-data-schedules{
+    width: 15%;
+}
+
+.crud-specie-schedules{
+    width: 10%;
+}
+
+.crud-animal-schedules{
+    width: 15%;
+}
