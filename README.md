@@ -1,12 +1,12 @@
 # UniPetShop
-Sistema de Pet Shop desenvolvido como trabalho acadêmico para a faculdade Unibrasil.
+Pet Shop system developed as an academic project for Unibrasil college.
 
-### Principais funcionalidades
+### Main features
 
-- Usuário: Pode visualizar os itens à venda e preencher suas informações para comprar, bem como realizar um agendamento de tosa e banho para seu pet na data desejada.
-- Admin: Pode gerenciar a lista de produtos (CRUD), visualizar os pedidos realizados, e visualizar os agendamentos feitos pelos usuários.
+- User: Can view items for sale and fill out their information to make a purchase, as well as schedule grooming and bathing for their pet on the desired date.
+- Admin: Can manage the product list (CRUD), view orders placed, and view appointments made by users.
 
-### Tecnologias utilizadas
+### Technologies
 
 #### Front end:
 - HTML
